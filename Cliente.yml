@@ -1,14 +1,5 @@
 server:
   port: ${PORT:8862}
 message: Configuracion de customer en el servidor levantado!
-spring:
- datasource:
-   url: jdbc:mysql://localhost:3306/basedan?serverTimezone=UTC
-   username: root
-   password: 12345678
-   driver-class-name: com.mysql.cj.jdbc.Driver
- jpa:
-   hibernate:
-     ddl-auto: update
-     database-platform: org.hibernate.dialect.MySQLDialect
+
   
